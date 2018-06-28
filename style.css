@@ -49,12 +49,6 @@ body{
     justify-content: center;
   }
     #profileImage {
-      height: 30vh;
-      width: 30vh;
-      border-color: #D7443F;
-      border-radius: 50vh;
-      border-width: thick;
-      border-style: solid;
       margin:5vh;
       background:url('../images/david-profile.jpg');
       background-repeat: no-repeat;
@@ -68,6 +62,7 @@ body{
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      text-align: center;
       border-radius:1vh;
       background-color:#F1ECE9;
       border-width: thick;
@@ -163,4 +158,93 @@ body{
   }
   .skewRight {
     transform:skewY(-1.5deg);
+  }
+
+  @media screen and (max-width:1150px){
+    #header {
+      height: 68vh;
+    }
+      #headerContent {
+        width: 50vw;
+      }
+
+    #aboutMe {
+
+    }
+      #aboutMeImages {
+        flex-direction: column;
+      }
+    .mainDivs {
+      height: 85vh;
+    }
+    .imageDiv {
+      width: 20vh;
+      height:20vh;
+    }
+  }
+  @media screen and (max-width:930px){
+    #header {
+      height: 55vh;
+    }
+      #profileImage {
+        margin: .25vh;
+      }
+  }
+  @media screen and (max-width:775px){
+    body{
+      background:url('../images/MobileWebsitePic.jpg');
+      background-repeat: no-repeat;
+      background-position:top center;
+      background-attachment: fixed;
+      background-size:contain;
+    }
+      #header {
+        height:85vh;
+      }
+        #profileImage {
+          margin:5vh;
+        }
+      #topBar ul{
+        display:none;
+      }
+  }
+  @media screen and (max-width:700px){
+    #aboutMe {
+
+    }
+      #aboutMeContent {
+        flex-direction: column;
+      }
+        #aboutMeImages {
+          flex-direction: row;
+          flex-wrap: wrap;
+          width:75vw;
+        }
+        #aboutMeText {
+          width:75vw;
+        }
+
+    .mainDivs {
+      height:125vh;
+    }
+  }
+  @media screen and (max-width:480px) {
+    h1{font-size: 1.5em;}
+    h3{font-size: 1.25em;}
+    p{font-size: 1em;}
+    #header {
+      height:65vh;
+    }
+      #headerContent {
+        width:65vw;
+      }
+
+      #aboutMeImages {
+        width: 75vw;
+        height: 35vh;
+        justify-content: space-evenly;
+      }
+    .mainDivs {
+      height:155vh;
+    }
   }
