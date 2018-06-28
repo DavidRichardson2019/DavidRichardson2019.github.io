@@ -1,0 +1,166 @@
+h1{font-size: 2em;}
+h3{font-size: 1.5em;}
+p{font-size: 1.25em;}
+
+body{
+  background:url('../images/WebsitePic.jpg');
+  background-repeat: no-repeat;
+  background-position:top center;
+  background-attachment: fixed;
+  background-size:contain;
+}
+  #topBar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+    background-color: #485058;
+    color:#F1ECE9;
+    padding:0 1vw;
+  }
+    #topBar h1 {
+      font-size: 2.5em;
+      margin-left: 1vw;
+    }
+    #topBar ul {
+      width:50vw;
+      height:100%;
+      display: flex;
+      justify-content:flex-end;
+      list-style-type: none;
+      overflow: hidden;
+    }
+
+      #topBar li {
+        display:block;
+        text-align: center;
+        width: 10vw;
+        height: 100%;
+        line-height:7vh;
+        background-color:;
+        margin:0;
+      }
+  #header {
+    height:85vh;
+    background-color:RGBA(254,254,254, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+    #profileImage {
+      height: 30vh;
+      width: 30vh;
+      border-color: #D7443F;
+      border-radius: 50vh;
+      border-width: thick;
+      border-style: solid;
+      margin:5vh;
+      background:url('../images/David.jpg');
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size:cover;
+    }
+    #headerContent {
+      width: 35vw;
+      height: 15vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius:1vh;
+      background-color:#F1ECE9;
+      border-width: thick;
+      border-style: solid;
+      border-color: #D7443F;
+    }
+  #skew1L {
+    background-color: #A6A5A1;
+  }
+  #aboutMe {
+    background-color: #A6A5A1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    #aboutMeContent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80%;
+      width: 100%;
+    }
+      #aboutMeImages {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        width: 35vw;
+        /*background-color: red;*/
+      }
+        #aboutMeImage {
+          background:url('../images/longboard.jpg');
+          background-repeat: no-repeat;
+          background-position:center;
+          background-size:cover;
+        }
+        #aboutMeImage2 {
+          background:url('../images/jeep.jpg');
+          background-repeat: no-repeat;
+          background-position:center;
+          background-size:cover;
+        }
+        #aboutMeImage3 {
+          background:url('../images/quad.jpg');
+          background-repeat: no-repeat;
+          background-position:center;
+          background-size:cover;
+        }
+      #aboutMeText {
+        height: 100%;
+        width: 65vw;
+
+        display:flex;
+        flex-direction:column;
+        align-items: flex-start;
+        text-align: left;
+        justify-content: center;
+        /*background-color: blue;*/
+      }
+        #aboutMeText h3 {
+          margin: 1.5vh;
+        }
+        #aboutMeText p {
+          margin: 1.5vh 2.5vh;
+
+        }
+  .mainDivs {
+    height:65vh;
+    width: 100vw;
+  }
+  .imageDiv {
+    height: 25vh;
+    width: 25vh;
+    border-color: #D7443F;
+    border-radius: 30vh;
+    border-width: thick;
+    border-style: solid;
+    background-color: black;
+  }
+  .skew {
+    content: '';
+    width:100%;
+    height:10vh;
+    position: absolute;
+    top:inherit;
+    margin-top:-3%;
+    margin-bottom: -3%;
+  }
+  .skewLeft {
+    transform:skewY(1.5deg);
+  }
+  .skewRight {
+    transform:skewY(-1.5deg);
+  }
