@@ -3,7 +3,7 @@ h3{font-size: 1.5em;}
 p{font-size: 1.25em;}
 
 body{
-  background:url('../images/WebsitePic.jpg');
+  background:url('../images/website-pic.jpg');
   background-repeat: no-repeat;
   background-position:top center;
   background-attachment: fixed;
@@ -56,7 +56,7 @@ body{
       border-width: thick;
       border-style: solid;
       margin:5vh;
-      background:url('../images/david.jpg');
+      background:url('../images/david-profile.jpg');
       background-repeat: no-repeat;
       background-position:center;
       background-size:cover;
@@ -101,19 +101,19 @@ body{
         /*background-color: red;*/
       }
         #aboutMeImage {
-          background:url('../images/longboard.JPG');
+          background:url('../images/longboard.jpg');
           background-repeat: no-repeat;
           background-position:center;
           background-size:cover;
         }
         #aboutMeImage2 {
-          background:url('../images/jeep.JPG');
+          background:url('../images/jeep.jpg');
           background-repeat: no-repeat;
           background-position:center;
           background-size:cover;
         }
         #aboutMeImage3 {
-          background:url('../images/quad.jpg');
+          background:url('../images/quadcopter.jpg');
           background-repeat: no-repeat;
           background-position:center;
           background-size:cover;
