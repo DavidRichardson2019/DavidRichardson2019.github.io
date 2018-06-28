@@ -101,13 +101,13 @@ body{
         /*background-color: red;*/
       }
         #aboutMeImage {
-          background:url('../images/longboard.jpg');
+          background:url('../images/longboard.JPG');
           background-repeat: no-repeat;
           background-position:center;
           background-size:cover;
         }
         #aboutMeImage2 {
-          background:url('../images/jeep.jpg');
+          background:url('../images/jeep.JPG');
           background-repeat: no-repeat;
           background-position:center;
           background-size:cover;
