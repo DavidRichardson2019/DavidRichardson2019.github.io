@@ -1,6 +1,6 @@
-h1{font-size: 4em;}
-h3{font-size: 3.5em;margin: 1.5vh;}
-p, li{font-size: 2.75em;margin: 1.5vh 2.5vh;}
+h1{font-size: 1.5em;}
+h3{font-size: 1.25em;margin: 1.5vh;}
+p, li{font-size: 1.05em;margin: 1.5vh 2.5vh;}
 
 
 body{
@@ -258,3 +258,10 @@ body{
   .skewRight {
     transform:skewY(-1.5deg);
   }
+
+
+/*@media only screen and (min-width:768px) {
+  body{
+    background:red;
+  }
+}*/
