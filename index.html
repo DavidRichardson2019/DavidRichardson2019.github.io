@@ -3,21 +3,12 @@
   <head>
     <meta charset="utf-8">
     <link rel="Stylesheet" type="text/css" href="reset.css" />
-    <link rel="Stylesheet" type="text/css" href="style.css" />
+    <link rel="Stylesheet" type="text/css" href="newStyle.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>David Richardson</title>
   </head>
   <body>
-    <div id="topBar">
-      <h1>David Richardson</h1>
-      <ul>
-        <li>About Me</li>
-        <li>Programming</li>
-        <li>Projects</li>
-        <li>Contact Me</li>
-      </ul>
-    </div>
-    <div id="header" class="mainDivs">
+    <div id="header">
       <div id="profileImage" class="imageDiv"></div>
       <div id="headerContent" >
         <h1>David Richardson</h1>
@@ -26,7 +17,7 @@
     </div>
 
     <div id="skew1L" class="skew skewLeft"></div>
-    <div id="aboutMe" class="content mainDivs">
+    <div id="aboutMe" class="content mainDivs right">
       <h1>About Me</h1>
       <div id="aboutMeContent">
         <div id="aboutMeImages">
@@ -43,7 +34,7 @@
       </div>
     </div>
     <div id="skew2R" class="skew skewRight"></div>
-    <div id="programming" class="content mainDivs">
+    <div id="programming" class="content mainDivs left">
       <h1>Programming</h1>
       <div id="programmingContent">
         <div id="programmingImage"></div>
@@ -63,28 +54,34 @@
       </div>
     </div>
     <div id="skew3L" class="skew skewLeft"></div>
-    <div id="projects" class="content mainDivs">
+    <div id="projects" class="content mainDivs right">
       <h1>Projects</h1>
       <div id="projectsContent">
         <div id="project1" class="projectItems">
           <div class="projectImages"></div>
-          <h3>Example Project</h3>
-          <p>This is some sample text about my sample project that tottaly isn't real because who the heck has time to make projects these days I mean come on this is 2018 nobody does that anymore.</p>
+          <span>
+          <h3>Number Memory</h3>
+          <p>This is a project I made for my AP Computer Science class. This app displays an x digit number for an x amount of time both depending on your level, and then you repeat the number back correctly to move on. This app was creeated in Swift using xCode and was tested on an iPhone 8.</p>
+          </span>
         </div>
         <div id="project2" class="projectItems">
           <div class="projectImages"></div>
-          <h3>Example Project</h3>
-          <p>This is some sample text about my sample project that tottaly isn't real because who the heck has time to make projects these days I mean come on this is 2018 nobody does that anymore.</p>
+          <span>
+          <h3>Homework List</h3>
+          <p>This is an app I made to help me remember my homework assignments. With this, I can add items, mark them as completed, and delete them. I put a lot of effort into making this app write to the device, saving the data after closing the application. In previeus versions of this program, I had it writing to a database API hosted by google, but the API has sense updated and the old app is broken.</p>
+        </span>
         </div>
-        <div id="project2" class="projectItems">
+        <div id="project3" class="projectItems">
           <div class="projectImages"></div>
-          <h3>Example Project</h3>
-          <p>This is some sample text about my sample project that tottaly isn't real because who the heck has time to make projects these days I mean come on this is 2018 nobody does that anymore.</p>
+          <span>
+          <h3>David's Greenhouse</h3>
+          <p>This is a website I made displaying a project for school, an enviormently friendly tiny house. I made this website to display my tiny house at the State Museum Eco Science Fair.</p>
+        </span>
         </div>
       </div>
     </div>
     <div id="skew4R" class="skew skewRight"></div>
-    <div id="contact" class="content mainDivs">
+    <div id="contact" class="content mainDivs left">
       <h1>I'm All Around You</h1>
       <div id="contactContent">
         <div class="contactDivWrapper"><a href="https://github.com/DavidRichardson2019"><div class="contactDiv imageDiv" id="GitLink"></div></a><p>GitHub</p></div>

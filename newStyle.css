@@ -1,4 +1,4 @@
-h1{font-size: 1.5em;}
+h1{font-size: 1.5em; margin-bottom:3vh;}
 h3{font-size: 1.25em;margin: 1.5vh;}
 p, li{font-size: 1.05em;margin: 1.5vh 2.5vh;}
 
@@ -8,12 +8,15 @@ body{
   background-repeat: no-repeat;
   background-position:center 0;
   background-attachment: fixed;
-  background-size:contain;
+  background-size:auto 100vh;
   width:100%;
 }
-
+.mainDivs {
+  padding-top:5vh;
+  padding-bottom:5vh;
+}
   #header {
-    height:65vh;
+    height:90vh;
     background-color:RGBA(254,254,254, 0);
     display: flex;
     flex-direction: column;
@@ -29,7 +32,8 @@ body{
     }
     #headerContent {
       width: 75vw;
-      height: 15vh;
+      height: auto;
+      padding:1vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -41,23 +45,22 @@ body{
       border-style: solid;
       border-color: #D7443F;
     }
-  #skew1L {
-    background-color: #A6A5A1;
-  }
   #aboutMe {
-    height: 165vh;
+    height: auto;
     background-color: #A6A5A1;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    -webkit-clip-path: polygon(0 1.5%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 1.5%, 100% 0%, 100% 100%, 0 100%);
   }
     #aboutMeContent {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      height: 150vh;
+      height: auto;
       width: 100%;
     }
       #aboutMeImages {
@@ -102,23 +105,20 @@ body{
           margin: 1.5vh 2.5vh;
 
         }
-  #skew2R {
-    background-color:#F1ECE9;
-  }
   #programming {
     background-color:#F1ECE9;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height:135vh;
+    height:auto;
   }
     #programmingContent {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      height: 85%;
+      height: auto;
       width: 100%;
     }
       #programmingText {
@@ -137,9 +137,6 @@ body{
         background-position:center;
         background-size:contain;
       }
-  #skew3L {
-    background-color: #A6A5A1;
-  }
   #projects {
     background-color: #A6A5A1;
     display: flex;
@@ -174,13 +171,8 @@ body{
         #project1 div.projectImages {background:url('../images/number-memory.PNG');background-repeat: no-repeat;background-position:center;background-size:contain;}
         #project2 div.projectImages {background:url('../images/homework.PNG');background-repeat: no-repeat;background-position:center;background-size:contain;}
         #project3 div.projectImages {background:url('../images/greenhouse.PNG');background-repeat: no-repeat;background-position:center;background-size:contain;}
-
-
-  #skew4R {
-    background-color:#F1ECE9;
-  }
   #contact {
-    height:125vh;
+    height:auto;
     background-color: #F1ECE9;
     display: flex;
     flex-direction: column;
@@ -236,19 +228,7 @@ body{
     background-color: #F1ECE9;
   }
   .skew {
-    content: '';
-    width:100%;
-    height:5vh;
-    position: absolute;
-    top:inherit;
-    margin-top:-3%;
-    margin-bottom: -3%;
-  }
-  .skewLeft {
-    transform:skewY(1.5deg);
-  }
-  .skewRight {
-    transform:skewY(-1.5deg);
+    display:none;
   }
 
 
@@ -259,66 +239,48 @@ body{
   body{
 
   }
-    #header{
-      height: 85vh;
-    }
-      #headerContent {
-        height: 10vh;
-      }
       #profileImage{
         margin: 2vh;
       }
   #aboutMe {
-    height: 110vh;
+    -webkit-clip-path: polygon(0 2.5%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 2.5%, 100% 0%, 100% 100%, 0 100%);
   }
-    #aboutMeContent {
-      height: 100vh;
-    }
     #aboutMeImages {
       margin:1vh;
     }
-  #programming {
-    height: 100vh;
-  }
     #programmingImage {
       width:30vh;
       height:30vh;
     }
-  #projects {
-    height: 195vh;
-  }
 }
 
 @media only screen and (min-width:1024px){
   body{
     background-image: url('../images/website-pic.jpg')
   }
-    #header {
-      height: 70vh;
-    }
       #headerContent {
-        height: 15vh;
         width:45vw;
       }
-    #aboutMe {
-
-    }
+      #aboutMe {
+        -webkit-clip-path: polygon(0 3.5%, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 3.5%, 100% 0%, 100% 100%, 0 100%);
+      }
       #aboutMeContent {
         flex-direction:row;
-        height: 95vh;
       }
         #aboutMeImages {
           width:45vw;
-          height:50vh;
+          max-width: 400px;
         }
         #aboutMeText {
-          width:60vh;
+          width:60vw;
         }
     #programming {
-      height:110vh;
+
     }
     #projects {
-      height:150vh;
+
     }
       #projectsContent {
         display: flex;
@@ -352,17 +314,9 @@ body{
     height:25vh;
     width:25vh;
   }
-  .skew {
-    height:8vh;
-  }
 }
 
 @media only screen and (min-width: 1440px){
-  #header {
-    height: 95vh;
-  }
-  #projects {
-  }
     .projectImages {
       width:20vw;
       height:20vw;
