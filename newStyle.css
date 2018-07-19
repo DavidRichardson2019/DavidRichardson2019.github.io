@@ -168,9 +168,9 @@ body{
           height:45vh;
           margin-bottom: 1vh;
         }
-        #project1 div.projectImages {background:url('../images/number-memory.PNG');background-repeat: no-repeat;background-position:center;background-size:contain;}
-        #project2 div.projectImages {background:url('../images/homework.PNG');background-repeat: no-repeat;background-position:center;background-size:contain;}
-        #project3 div.projectImages {background:url('../images/greenhouse.PNG');background-repeat: no-repeat;background-position:center;background-size:contain;}
+        #project1 div.projectImages {background:url('../images/number-memory.png');background-repeat: no-repeat;background-position:center;background-size:contain;}
+        #project2 div.projectImages {background:url('../images/homework.png');background-repeat: no-repeat;background-position:center;background-size:contain;}
+        #project3 div.projectImages {background:url('../images/greenhouse.png');background-repeat: no-repeat;background-position:center;background-size:contain;}
   #contact {
     height:auto;
     background-color: #F1ECE9;
@@ -263,8 +263,8 @@ body{
         width:45vw;
       }
       #aboutMe {
-        -webkit-clip-path: polygon(0 3.5%, 100% 0, 100% 100%, 0 100%);
-        clip-path: polygon(0 3.5%, 100% 0%, 100% 100%, 0 100%);
+        -webkit-clip-path: polygon(0 2.5%, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 2.5%, 100% 0%, 100% 100%, 0 100%);
       }
       #aboutMeContent {
         flex-direction:row;
