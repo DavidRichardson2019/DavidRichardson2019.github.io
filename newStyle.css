@@ -171,6 +171,9 @@ body{
         #project1 div.projectImages {background:url('../images/number-memory.png');background-repeat: no-repeat;background-position:center;background-size:contain;}
         #project2 div.projectImages {background:url('../images/homework.png');background-repeat: no-repeat;background-position:center;background-size:contain;}
         #project3 div.projectImages {background:url('../images/greenhouse.png');background-repeat: no-repeat;background-position:center;background-size:contain;}
+        #project4 div.projectImages {background:url('../images/connect4.png');background-repeat: no-repeat;background-position:center;background-size:contain;}
+        #project5 div.projectImages {background:url('../images/TTT.png');background-repeat: no-repeat;background-position:center;background-size:contain;}
+
   #contact {
     height:auto;
     background-color: #F1ECE9;
