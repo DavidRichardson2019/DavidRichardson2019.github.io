@@ -13,7 +13,7 @@ body{
 }
 
   #header {
-    height:65vh;
+    height:50vh;
     background-color:RGBA(254,254,254, 0);
     display: flex;
     flex-direction: column;
